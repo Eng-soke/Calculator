@@ -26,7 +26,11 @@ function Caculator (){
 
 
 
-    return <div className="bg-[#a98467]  w-[250px] h-[380px] mx-[500px] my-[100px] py-3  border-2 border-gray-500 ">
+    return <div className="bg-[#a98467]  w-[250px] h-[380px]  my-[100px] sm:ml-[500px] ml-[80px] py-3  border-2 border-gray-500 ">
+
+        <div>
+
+      
         <div className=" w-[238px] h-[80px] border-2 border-gray-500 ml-1">
             <input value={number} className="w-[234px] h-[76px] text-end text-4xl hover:bg-gray-500 " type="text" placeholder=""></input>
         </div>
@@ -61,6 +65,7 @@ function Caculator (){
             <button  onClick={handleResult} className="bg-white w-[110px] h-[40px] hover:bg-green-500 text-4xl rounded m-2 col-span-2">=</button>
             
             
+        </div>
         </div>
     </div>
 }
